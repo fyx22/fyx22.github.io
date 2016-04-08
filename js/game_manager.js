@@ -5,7 +5,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.actuator       = new Actuator;
 
   this.startTiles     = 2;
-  this.tilesTextArr   = ['DNA','细胞核','细胞','组织','器官','系统','生命体','食物链','生态系统','生物圈','你赢了'];
+  this.tilesTextArr   = ['黄油','甜品','奶制品','红肉','鱼类','坚果','豆类','蔬菜','水果','全麦食品','你赢了'];
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
